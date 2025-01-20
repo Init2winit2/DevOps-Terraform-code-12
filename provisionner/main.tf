@@ -32,8 +32,10 @@ resource "aws_instance" "demo1" {
   ami = "ami-033a1ebf088e56e81"
   instance_type = "t2.micro"
   key_name = "week12key"
+      
+  }
   
-}
+
 
 resource "null_resource" "n1" {
   connection {

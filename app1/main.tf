@@ -1,7 +1,7 @@
 module "key" {
   source = "../key-pair"
   region_name = "us-east-1"
-  key_name = "serge3039"
+  key_name = "kimkey"
 }
 module "vpc" {
   source = "terraform-aws-modules/vpc/aws"
